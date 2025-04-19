@@ -3,11 +3,13 @@
 <p>This is a secure fullstack authentication system built with <strong>React (frontend)</strong> and <strong>Node.js + Express (backend)</strong>. It features robust <strong>Multi-Factor Authentication (MFA)</strong> using <strong>TOTP (Time-based One-Time Password)</strong> and QR codes, ensuring strong protection for user accounts.</p>
 
 <h2>✨ Features</h2>
+<img align="right" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWtzbTYydGkxcHYwZWRoemM2OWJnNGZya3NlMmJ3endjMDAxbnE4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jorIQWq3W9PzUfYic3/giphy.gif" height ="300" alt="Gif">
+
 <ul>
-  <li>🔒 User authentication with <strong>username & password</strong> (bcrypt + Passport.js)</li>
-  <li>📱 <strong>Two-Factor Authentication (2FA)</strong> with TOTP via authenticator apps (Google Authenticator, Authy, etc.)</li>
+  <li>🔒 User authentication with <strong>username & password</strong></li>
+  <li>📱 <strong>Two-Factor Authentication (2FA)</strong> with TOTP </li>
   <li>📷 <strong>QR Code generation</strong> for easy setup of MFA</li>
-  <li>🔐 <strong>JWT-based session management</strong> for secure, stateless auth</li>
+  <li>🔐 <strong>JWT-based session management</strong></li>
   <li>📦 MongoDB for user and token storage via Mongoose</li>
   <li>🛡️ CORS and session handling with <code>express-session</code></li>
   <li>✅ Login flow includes both password and 4-digit TOTP verification</li>
