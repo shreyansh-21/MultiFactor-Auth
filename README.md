@@ -57,8 +57,5 @@ npm run dev</code></pre>
 npm install
 npm start</code></pre>
   </li>
-  <li>
-    <strong>Visit</strong> <a href="http://localhost:3000">http://localhost:3000</a> to get started.
-  </li>
 </ol>
 
